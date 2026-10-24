@@ -1,0 +1,10 @@
+/** @type {import('jest').Config} */
+module.exports = {
+  preset: "ts-jest",
+  testEnvironment: "node",
+  testMatch: ["**/tests/**/*.test.ts"],
+  // Show individual test names in output
+  verbose: true,
+  // Clear mocks between tests
+  clearMocks: true,
+};
